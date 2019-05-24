@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  #map {
+    height: 300px;
+    width: 100%;
+    background-color: #ccc;
+  }
+}
+
+

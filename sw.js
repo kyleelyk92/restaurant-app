@@ -1,13 +1,13 @@
-const currentCache = "restaurantCacheV4";
+const currentCache = "restaurantCacheV5";
 
 const itemsToCache = [
-  './',
-  'index.html', 
-  'js/dbhelper.js', 
-  'js/main.js',
-  'js/restaurant_info.js', 
-  'css/styles.css', 
-  'data/restaurants.json'
+    './',
+    'index.html', 
+    'js/dbhelper.js', 
+    'js/main.js',
+    'js/restaurant_info.js', 
+    'css/styles.css', 
+    'data/restaurants.json'
 ]
 
 

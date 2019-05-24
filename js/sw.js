@@ -3,11 +3,11 @@ const currentCache = "restaurantCacheV4";
 const itemsToCache = [
   './',
   'index.html', 
-  './js/dbhelper.js', 
-  './js/main.js',
-  './js/restaurant_info.js', 
-  './css/styles.css', 
-  './data/restaurants.json'
+  '/restaurant-app/js/dbhelper.js', 
+  '/restaurant-app/js/main.js',
+  '/restaurant-app/js/restaurant_info.js', 
+  '/restaurant-app/css/styles.css', 
+  '/restaurant-app/data/restaurants.json'
 ]
 
 

@@ -5,7 +5,7 @@ var markers = [];
 /*
 Registering service worker
 */
-navigator.serviceWorker.register("../sw.js").then(() => {
+navigator.serviceWorker.register("sw.js").then(() => {
   console.log("service worker registered");
 });
 

@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 100%;
+  }
+
+  .leaflet-control {
+    position: absolute;
+    top: 100px;
+    z-index: -5;
+    display: none;
+  }
+
+  #restaurant-container {
+    margin: auto;
+    width: 40%;
+    margin-top: 0;
+    margin-top: 500px
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #restaurant-container {
+    margin: auto;
+    width: 40%;
+    margin-top: 0;
+    margin-top: 500px
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    width: 100%;
+    margin-top: 55px;
+  }
+
+  #restaurant-container {
+    margin: auto;
+    width: 40%;
+    margin-top: 0;
+    margin-top: 550px
+  }
+
+  #maincontent {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 400px;
+    top: 80px;
+    width: 90%;
+    right: 5%;
+  }
+
+  #reviews-container {
+    padding: 30px 40px 80px;
+    margin-top: 550px;
+  }
+
+
+  table {
+    padding: 5px;
+  }
+}
